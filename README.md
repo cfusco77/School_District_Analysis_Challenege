@@ -1,5 +1,5 @@
 ## Project Overview
-Maria a data scientist for a city school district was asked to perform an analysis on school performance, namely math and reading scores. This analysis will aid in the determination of sachool funding so its imperative that the analysis by thorough and without bias. 
+Maria a data scientist for a city school district was asked to perform an analysis on school performance, namely math and reading scores. This analysis will aid in the determination of school funding so its imperative that the analysis by thorough and without bias. 
 
 The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked us to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Maria would like us to repeat the school district analysis and describe how these changes affected the overall analysis.
 
@@ -43,7 +43,7 @@ All average grades across 9th - 12th remained the same for every school with the
 ---
 
 ### Scores by School Spending 
-THS belongs to the $630 - $644 bin which, after having performed the secondary analsyis, sees no statisitically signifcant change to the percent passing math, reading or overall. 
+THS belongs to the $630 - $644 bin which, after having performed the secondary analsyis, sees no statisitically signifcant change to the percent passing math, reading, or overall. 
 #### Original School Spending 
 ![Original School spending](https://github.com/cfusco77/School_District_Analysis_Challenege/blob/main/Resources/Original%20Spending%20Ranges%20.png) 
 #### After Replacing THS Ninth Graders' Grades with  NaNs 
@@ -52,7 +52,7 @@ THS belongs to the $630 - $644 bin which, after having performed the secondary a
 ---
 
 ### Scores by School Size 
-THS belongs to the medium sized school bin which, after having performed secondary analysis, sees no statstitically significant change to the percent passing math, reading or overall. 
+THS belongs to the medium sized school bin which, after having performed secondary analysis, sees no statstitically significant change to the percent passing math, reading, or overall. 
 #### Original School Size Summary 
 ![Original school size summary](https://github.com/cfusco77/School_District_Analysis_Challenege/blob/main/Resources/Original%20Size%20Summary.png)
 #### After Replacing THS Ninth Graders' Grades with NaNs 
@@ -70,4 +70,4 @@ THS belongsa to the type charter which, after having performed secondardy analys
 
 
 ### Summary
-There were very minimal changes to replacing the Thomas High School ninth graders' grades with NaNs, however a worth while excercise in an effort to protect data integrity. Adjusting the grades did reduce the number of students used in our calculations from 39,170 to 38,709. We saw in some areas such as the district summary average math scores a decrease by a fraction of a pecentage point. Almost all discrepancies were so small that when we applied the formatting requested by the sachool district the results were identical. 
+There were very minimal impacts to replacing the Thomas High School ninth graders' grades with NaNs, however a worth while excercise in an effort to protect data integrity. Adjusting the grades did reduce the number of students used in our calculations from 39,170 to 38,709. We saw in some areas such as the district summary average math scores a decrease by a fraction of a pecentage point. Almost all discrepancies were so small that when we applied the formatting requested by the school district the results were identical. 
